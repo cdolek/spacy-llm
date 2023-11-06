@@ -25,7 +25,7 @@ Parameter explanations:
 def openai_gpt_4_v2(
     config: Dict[Any, Any] = SimpleFrozenDict(temperature=_DEFAULT_TEMPERATURE),
     name: Literal[
-        "gpt-4", "gpt-4-0314", "gpt-4-32k", "gpt-4-32k-0314"
+        "gpt-4", "gpt-4-0314", "gpt-4-32k", "gpt-4-32k-0314", "gpt-4-1106-preview"
     ] = "gpt-4",  # noqa: F722
     strict: bool = OpenAI.DEFAULT_STRICT,
     max_tries: int = OpenAI.DEFAULT_MAX_TRIES,
